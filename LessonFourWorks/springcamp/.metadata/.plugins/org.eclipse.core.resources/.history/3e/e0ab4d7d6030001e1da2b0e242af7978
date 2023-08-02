@@ -1,0 +1,8 @@
+package Kodlama.io.Kodlama.io.Devs.dataAccess.concrates;
+
+import Kodlama.io.Kodlama.io.Devs.dataAccess.abstracts.ProgrammingLanguageRepository;
+import Kodlama.io.Kodlama
+
+public class InMemoryProgrammingLanguageRepository implements ProgrammingLanguageRepository{
+
+}

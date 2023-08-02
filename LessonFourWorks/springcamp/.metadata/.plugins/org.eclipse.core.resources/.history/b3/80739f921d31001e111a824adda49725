@@ -1,0 +1,5 @@
+ackage Kodlama.io.Devs.dataAccess.abstracts;
+
+public enum ProgrammingLanguageRepository {
+
+}

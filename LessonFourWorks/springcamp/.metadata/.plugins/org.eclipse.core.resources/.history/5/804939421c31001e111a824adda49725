@@ -1,0 +1,45 @@
+package Kodlama.io.Kodlama.io.Devs.dataAccess.concrates;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Repository;
+
+import Kodlama.io.Devs.entities.concretes.ProgrammingLanguage;
+import Kodlama.io.Kodlama.io.Devs.dataAccess.abstracts.ProgrammingLanguageRepository;
+
+@Repository
+public class InMemoryProgrammingLanguageRepository implements ProgrammingLanguageRepository{
+	
+	List<ProgrammingLanguage> programmingLanguages;
+
+	@Override
+	public List<ProgrammingLanguage> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void add(ProgrammingLanguage programmingLanguage) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(ProgrammingLanguage programmingLanguage) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public ProgrammingLanguage getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

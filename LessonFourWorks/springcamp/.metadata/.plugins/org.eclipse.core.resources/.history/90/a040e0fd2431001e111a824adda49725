@@ -1,0 +1,6 @@
+package Kodlama.io.Devs.dataAccess.concretes;
+
+public interface InMemoryProgrammingLanguageRepository {
+	
+
+}
